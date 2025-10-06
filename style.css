@@ -237,17 +237,12 @@ p{
     flex-direction: row;
     justify-content: space-between;
 }
-.textself{
-    displa
-}
 
 
-.inline-block{
-    display: inline-block;
-}
+
+
 .p2{
     padding-top: 50px;
-    align-self: center;
     padding-right: 2250px;
 }
 .p3{
