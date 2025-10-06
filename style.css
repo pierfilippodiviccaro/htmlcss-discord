@@ -72,12 +72,14 @@ background-image: url(img/jumbo.png);
     width: 100%;
    background-size: contain;
    background-repeat: no-repeat;
+    background-color:#255ee9;
+   
 
 }
 
 .second-square2 {
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: #255ee9;
     width: 50%;
     
 }
