@@ -31,10 +31,12 @@
 .menu {
     display: flex;
     background-color: #255ee9;
+    justify-content: space-between;
 }
 
 .text {
     width: 100%;
+    
     
 }
 
@@ -44,14 +46,14 @@
     align-items: center;
     background-size: contain;
 background-image: url(img/jumbo.png);
-border-bottom: 1px solid black;
+
 }
 
 
 .square {
     display: flex;
     height: 70%;
-    width: 400px;
+    width: 500px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -65,7 +67,7 @@ border-bottom: 1px solid black;
     align-items: center;
     flex-wrap: wrap;
     border-bottom: 1px solid black;
-    background-color:#255ee9;
+    background-color: #255ee9;
 
 }
 
@@ -132,14 +134,15 @@ border-bottom: 1px solid black;
     display: flex;
     min-height: 750px;
     align-items: center;
-    background-color: #255ee9
+    background-color: #49497a
 }
 .fourth-square{
     display: flex;
-    background-image: url(img/item4-big.svg);
-    background-size: contain;
+    flex-direction: column;
     height: 500px;
     width: 750px;
+    justify-content: center;
+    align-items: center;
     
     
 }
@@ -204,11 +207,10 @@ border-bottom: 1px solid black;
 .seventh-square{
     height: 300px;
     width: 100%;
-    background-image: url(img/item3.svg);
+   background-image: url(img/item3.svg);
    background-size: contain;
    background-repeat: no-repeat;
-    background-color:#255ee9;
-   
+   background-color:#255ee9;
 }
 .seventh-square2{
 display: flex;
@@ -229,4 +231,28 @@ p{
 .miao{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.textself{
+    displa
+}
+.miao{
+    display: flex;
+    justify-content: space-between;
+}
+.inline-block{
+    display: inline-block;
+}
+.p2{
+    padding-top: 50px;
+    align-self: center;
+}
+.p3{
+    display: flex;
+    background-image: url(img/stars.svg);
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+
+background-position: center;
 }
