@@ -1,0 +1,184 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color:#255ee9;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu {
+    background-color: rgb(249, 249, 252);
+    display: flex;
+    
+}
+
+.text {
+    width: 100%;
+    
+}
+
+.bg1 {
+   display: flex;
+    height: 590px;
+    align-items: center;
+    background-size: contain;
+background-image: url(img/jumbo.png);
+}
+
+
+.square {
+    display: flex;
+    height: 70%;
+    width: 400px;
+    
+}
+
+.bg2 {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#255ee9
+
+}
+
+.second-square {
+    
+   background-image: url(img/item1.svg);
+    height: 300px;
+    width: 100%;
+   background-size: contain;
+   background-repeat: no-repeat;
+
+}
+
+.second-square2 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    
+}
+
+.bg3 {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #255ee9
+}
+
+.third-square {
+    display: flex;
+    background-color: cadetblue;
+    height: 200px;
+    width: 100%;
+}
+
+.third-square2 {
+    display: flex;
+    background-color: chocolate;
+    width: 45%;
+
+}
+.bg4{display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #255ee9
+
+}
+.bg5{
+    display: flex;
+    min-height: 750px;
+    align-items: center;
+    background-color: #255ee9
+}
+.fourth-square{
+    display: flex;
+    height: 700px;
+    width: 750px;
+    background-color: aquamarine;
+}
+
+.bg6{
+    display: flex;
+    min-height: 300px;
+    align-items: center;
+    background-color: black
+}
+.fifth-square{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-color: pink;
+}
+.sixth-square{
+    display: flex;
+    width: 40%;
+    background-color: crimson;
+    border: 1px dashed black;
+}
+
+.bg7 {
+    
+    height: 70px;
+    background-color: blueviolet;
+    
+    ;
+    
+
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around center;
+   
+   background-color: aquamarine;
+   max-width: 50%;
+   border-radius: 5px;
+  
+    
+    }
+    .footer1{
+        margin: 0;
+        width: 100%;
+    }
+    .footer2{
+        margin: 0;
+        width: 100%;
+    }
+
+
+.self{
+    align-self: flex-end;
+}
+.end{
+    text-align: end;
+}
