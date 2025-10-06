@@ -40,7 +40,7 @@
 
 .bg1 {
    display: flex;
-    min-height: 700px;
+    min-height: 800px;
     align-items: center;
     background-size: contain;
 background-image: url(img/jumbo.png);
@@ -92,7 +92,7 @@ border-bottom: 1px solid black;
 .bg3 {
     display: flex;
     flex-direction: row;
-    min-height: 400px;
+    min-height: 600px;
     align-items: center;
     flex-wrap: wrap;
     background-color: #255ee9
@@ -100,15 +100,24 @@ border-bottom: 1px solid black;
 
 .third-square {
     display: flex;
-    background-color: cadetblue;
-    height: 200px;
+    background-image: url(img/item2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
     width: 100%;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 40px;
 }
 
 .third-square2 {
     display: flex;
-    background-color: chocolate;
+    background-color: #255ee9;
     width: 45%;
+    padding-top: 40px;
+    padding-right: 40px;
+    flex-direction: column;
+    align-items: center;
 
 }
 .bg4{display: flex;
@@ -127,9 +136,12 @@ border-bottom: 1px solid black;
 }
 .fourth-square{
     display: flex;
-    height: 700px;
+    background-image: url(img/item4-big.svg);
+    background-size: contain;
+    height: 500px;
     width: 750px;
-    background-color: aquamarine;
+    
+    
 }
 
 .bg6{
@@ -190,9 +202,9 @@ border-bottom: 1px solid black;
     text-align: end;
 }
 .seventh-square{
-
     height: 300px;
     width: 100%;
+    background-image: url(img/item3.svg);
    background-size: contain;
    background-repeat: no-repeat;
     background-color:#255ee9;
